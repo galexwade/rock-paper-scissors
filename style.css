@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Press Start 2P", sans-serif;
+}
+
+.container {
+  max-width: 100vw;
+  height: 100vh;
+
+  display: flex;
+}
+
+.score-title {
+  font-size: 52px;
+}
+
+.score {
+  font-size: 102px;
+}
+
+.player-score-container {
+  flex: 1;
+  padding-top: 36px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.player-score {
+  font-size: 70px;
+}
+
+.game {
+  flex: 5;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 62px;
+}
+
+.game-title {
+  font-size: 86px;
+}
+
+.game-options {
+  display: flex;
+  gap: 62px;
+}
+
+.cpu-score-container {
+  flex: 1;
+  padding-top: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.cpu-score {
+  font-size: 70px;
+}
+
+/* For now, remove when you get images */
+.option {
+  font-size: 42px;
+
+  cursor: pointer;
+  transition: all 0.6s;
+}
+
+.option:hover {
+  transform: translateY(-5px);
+}
+
+.output-text {
+  font-size: 24px;
+}
+
+.commentator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.commentator-text {
+  font-size: 22px;
+}
+
+#btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #fff;
+  background-color: red;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+
+#btn:hover {
+  transform: translateY(-5px);
+}
+
+.hidden {
+  display: none;
+}
+
+.img {
+  width: 100px;
+}

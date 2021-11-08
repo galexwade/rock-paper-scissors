@@ -4,9 +4,42 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Rock, Paper, Scissors</title>
   </head>
   <body>
+    <div class="container">
+      <div class="player-score-container">
+        <div class="score-title">
+          <img src="assets/gamer.png" class="img" alt="Gamer" />
+        </div>
+        <div class="player-score">0</div>
+      </div>
+      <div class="game">
+        <h1 class="game-title">Roshambo!</h1>
+        <div class="game-options">
+          <div class="option">
+            <img src="assets/rock.png" class="rock img" alt="rock" />
+          </div>
+          <div class="option">
+            <img src="assets/paper.png" class="paper img" alt="paper" />
+          </div>
+          <div class="option">
+            <img src="assets/scissor.png" class="scissors img" alt="scissors" />
+          </div>
+        </div>
+        <div class="commentator">
+          <div class="commentator-text"></div>
+          <button id="btn" class="hidden">Reset Game</button>
+        </div>
+      </div>
+      <div class="cpu-score-container">
+        <div class="score-title">
+          <img src="assets/robot.png" class="img" alt="Robot" />
+        </div>
+        <div class="cpu-score">0</div>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
